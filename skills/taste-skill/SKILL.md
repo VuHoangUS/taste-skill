@@ -15,6 +15,14 @@ description: >-
 
 # tasteskill v2
 
+> **Bản fork cho dự án Nhật ký vết thương (app ghi nhận vết thương ở bệnh viện).**
+> Skill này chỉ để **rà soát và góp ý** màn hình khi người dùng yêu cầu; dùng
+> `references/app-screens.md`, `critique.md`, `tells.md`. **Không** được đổi hệ thiết
+> kế đã chốt của dự án (một màu nhấn, một hệ bo góc, sáng/tối, token trong
+> `tokens.css`) và **không** chạy `draw.mjs` để chọn hướng mới cho app đó.
+> `scripts/assets.mjs` đã bị tắt: không tải ảnh từ Internet, không đưa ảnh y khoa
+> hay dữ liệu bệnh nhân ra ngoài.
+
 A page built by a model usually looks like the average of every page the model has seen: a centred
 headline over three lines, a little label above it, a row of icon cards, a soft gradient, a few thin
 rules and a monospace caption. Nothing in it is wrong and nothing in it was decided.
